@@ -76,9 +76,8 @@ class MathsQuizApp:
 
         self.displayMenu()
 
-    # --------------------------------------------------
     # SCREEN MANAGEMENT
-    # --------------------------------------------------
+     
 
     def clearScreen(self):
         self.cancelTimer()
@@ -169,7 +168,7 @@ class MathsQuizApp:
                     "Your high score could not be saved."
                 )
     
-    # REQUIRED FUNCTION 1: DISPLAY MENU
+    #FUNCTION 1: DISPLAY MENU
 
     def displayMenu(self):
         self.clearScreen()
